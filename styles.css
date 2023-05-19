@@ -1,0 +1,40 @@
+
+
+.cancel-button {
+    background-color: grey;
+    color: white;
+}
+
+.send-button {
+    background-color: rgba(12, 67, 245, 0.726);
+    color: white;
+}
+
+
+.radio-container {
+    background-color: grey;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .warning-message {
+    background-color: rgba(241, 132, 132, 0.37);
+    color: rgb(177, 51, 51);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.button-bar {
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+}
+.button-bar button {
+    margin-left: 10px; /* Adjust the spacing between buttons */
+}
+    
+.cancel-button:hover,
+.send-button:hover {
+    background-color: #cdd0e4;
+}
